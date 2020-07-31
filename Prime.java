@@ -2,6 +2,8 @@ import java.util.ArrayList;
 import java.util.LinkedList;
 import java.util.List;
 
+
+
 public class Prime {
 	public static LinkedList<Number> multiple(LinkedList<Number> list) {
 
@@ -27,7 +29,7 @@ public class Prime {
 				 num.setPrime(1);;
 			 }
 		 }
-		 return list; //returns list with prime and composite DS Number
+		 return list; //returns list with prime and composite Number
 	}
 	//Generates the list of Numbers from 2 to the user defined limit
 	public static LinkedList<Number> linkedListGenerator(int limit) {

@@ -1,7 +1,12 @@
+/*
+Numbers is an integer based object used to keep 
+track of which numbers inside of the Seive.
+*/
+
 public class Number {
 	private int prime = -1;
 	private int value;
-	// -1; prime or not prime
+	// -1; relation to prime or composite undefined (not checked yet)
 	// 0; composite (not prime)
 	// 1; prime 
 	
